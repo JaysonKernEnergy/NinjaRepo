@@ -17,4 +17,5 @@
     <Setup Name="Company" Value="Kern Energy" />
   </AppSettings>
   <Display Level="None" AcceptEULA="TRUE" />
+  <Logging Level="Standard" Path="%temp%" />
 </Configuration>
