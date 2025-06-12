@@ -1,0 +1,22 @@
+<Configuration ID="d44321ae-7c84-4f49-8638-f7f59d3db6a8">
+  <Info Description="" />
+  <Add OfficeClientEdition="32" Channel="Current">
+    <Product ID="O365BusinessRetail">
+      <Language ID="en-us" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+    </Product>
+  </Add>
+  <Property Name="SharedComputerLicensing" Value="0" />
+  <Property Name="FORCEAPPSHUTDOWN" Value="TRUE" />
+  <Property Name="DeviceBasedLicensing" Value="0" />
+  <Property Name="SCLCacheOverride" Value="0" />
+  <Property Name="TenantId" Value="6d35f518-08c7-408e-a422-8b4e5195446a" />
+  <Property Name="AllowCdnFallback" Value="TRUE" />
+  <Updates Enabled="TRUE" />
+  <AppSettings>
+    <Setup Name="Company" Value="Kern Energy" />
+  </AppSettings>
+  <Display Level="None" AcceptEULA="TRUE" />
+  <Logging Level="Standard" Path="%temp%" />
+</Configuration>
